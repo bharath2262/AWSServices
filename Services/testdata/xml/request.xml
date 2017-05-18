@@ -1,0 +1,31 @@
+<DocFWImport>
+    <Header senderID="COMDMSService" receiverID="COMDMSService" SendDateTime="2017-05-17T03:32:25"
+            extDocControlID="CapacityServiceDelegate-CheckCapacity" CompanyName="TheHomeDepot" LoginName="FW-Admin"
+            Password="cs"/>
+    <Request>
+        <DocMasterBOL>
+            <DocBOL IgnoreTerritorySwap="true" MessagePurpose="1002" ProcessCode="30" StartDate="2017-05-18T08:00:00"
+                    EndDate="2017-05-23T20:00:00" MaxSlots="70" BOLNumber="" AdviseType="1" ScheduleKey="USAQ2_PLANNING"
+                    ApplyFWOnly="true" AllowUpdSchedule="false" TaskName="UpdatedRouteAsync" Retry="3"
+                    ReturnCommandXMLOnly="false" Comment="">
+                <UDF Profit="2000.0" Requirements="FLAT" Territory="9784" PreServiceDuration="0"
+                     DeliveryServiceDuration="500" UDFString2="H5604-133761" UDFString3="20" UDFString6="9784"
+                     UDFString7="Regular"/>
+                <PickupLocation LocationRefNo="9784" Type="DEPOT" ServiceDuration="1800"/>
+                <DeliveryLocation Type="CUSTOMER" Address="7900 GLADES RD" CrossStreet="" City="BOCA RATON" State="FL"
+                                  Zip="33434" Country="US" GeocodingPolicy="2" Name="null null">
+                    <UDF Comment="" UDFString1="" UDFString2="" UDFString3=""/>
+                </DeliveryLocation>
+                <BOLLine ItemQty="4" Measure1="18.0" Measure2="0.0" Measure3="0.100000" LocationRefNo="9784">
+                    <UDF ProductKey="9784_101866_1" ProductName="" UDFString1="101866"/>
+                </BOLLine>
+                <BOLLine ItemQty="1" Measure1="0.0" Measure2="0.0" Measure3="0.100000" LocationRefNo="9784">
+                    <UDF ProductKey="9784_655115_2" ProductName="" UDFString1="655115"/>
+                </BOLLine>
+                <BOLLine ItemQty="5" Measure1="0.0267" Measure2="0.0" Measure3="0.100000" LocationRefNo="9784">
+                    <UDF ProductKey="9784_653829_3" ProductName="" UDFString1="653829"/>
+                </BOLLine>
+            </DocBOL>
+        </DocMasterBOL>
+    </Request>
+</DocFWImport>
